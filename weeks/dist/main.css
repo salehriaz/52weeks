@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background-color: #0C0C0C;
+    color: #E7EBF1;
+    padding: 10% 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.simplebar-scrollbar::before {
+    background-color: #d22650;
+}
+
+.week-tag {
+    padding: 3px 18px;
+    background-color: #D22650;
+    display: inline-block;
+    font-size: 14px;
+    color: #E7EBF1;
+    letter-spacing: 0;
+}
+
+.interaction-name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #E7EBF1;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+
+.app-description {
+    opacity: 0.6;
+    font-size: 18px;
+    color: #E7EBF1;
+    letter-spacing: 0;
+    font-weight: 300;
+}
+
+.feature-image {
+    margin: 20px 0;
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+.sub-title {
+    opacity: 1;
+    font-size: 24px;
+    color: #E7EBF1;
+    letter-spacing: 0;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 6px;
+}
+
+.content-text {
+    font-size: 18px;
+    color: #BBBEC2;
+    line-height: 32px;
+}
+
+.content-text b {
+    color: #fff;
+}
+
+.content-image img {
+    width: 100%;
+}
+
+.content-image {
+    margin: 20px 0;
+}
+
+.content-text a:link {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+.content-text a:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.content-text a:hover {
+    color: #D22650;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.content-text a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #F7F7F7;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tags {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.tags div {
+    margin-bottom: 8px;
+}
+
+.spacer {
+    width: 10%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 48px 0 34px 0;
+}
+
+
+
+
+
+
+
+
+.

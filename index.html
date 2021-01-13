@@ -10,15 +10,17 @@
 
     <link rel="shortcut icon" href="img/favicon.png">
     <title>52 Weeks of IxD by Saleh</title>
-    <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="wrapper">
             <div class="left-column">
-                <div clas="ixd-logo">
+                <div class="ixd-logo">
                     <svg class="svg-logo" width="120px" height="70px" viewBox="0 0 120 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                             <g id="Desktop-HD" transform="translate(-86.000000, -45.000000)">
@@ -36,25 +38,79 @@
                 </div>
 
                 <div class="links">
-                    <div class="link special-link about">
-                        <span class="line"></span><a class="">About</a>
-                    </div>
-                    <div class="link special-link view">
-                        <span class="line"></span><a class="view-all">View All Interactions</a>
+                    <div class="sticky-links" style="display: none;">
+                        <div class="link special-link about">
+                            <span class="line"></span><a class="">About</a>
+                        </div>
+                        <div class="link special-link view">
+                            <span class="line"></span><a class="view-all">View All Interactions</a>
+                        </div>
                     </div>
 
-                    <div class="link selected">
-                        <span class="line"></span><a class="">Week 10</a>
+                    <div class="start-scroller">
+                        <!--
+<div class="scroller-fade scroll-top">
+</div>
+-->
+                        <div class="scroll-links" data-simplebar>
+
+                            <div class="link selected">
+                                <span class="line"></span><a class="week1">Week 1</a>
+                            </div>
+                            <div class="link">
+                                <span class="line"></span><a class="week2">Week 2</a>
+                            </div>
+
+
+                        </div>
+                        <!--end scroll links-->
+                        <!--
+                        <div class="scroller-fade scroll-bottom">
+                        </div>
+                        -->
                     </div>
-                    <div class="link">
-                        <span class="line"></span><a class="">Week 10</a>
+                    <!--end scroller-->
+                </div>
+                <div class="social-brand">
+                    <div class="name-logo">
+                        <img src="img/nameLogo.svg">
+                    </div>
+                    <div class="social-icons">
+                        <a class="tooltip" href="http://instagram.com/salehriaz" target="_blank">
+                            <img src="img/instagram.svg" />
+                        </a>
+                        <a target="_blank" href="https://www.behance.net/salehriaz">
+                            <img src="img/behance.svg" />
+                        </a>
+                        <a target="_blank" href="https://www.dribbble.com/salehriaz">
+                            <img src="img/dribbble.svg" />
+                        </a>
+                        <a target="_blank" href="https://medium.com/@salehriaz">
+                            <img src="img/medium.svg" />
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/salehriaz/">
+                            <img src="img/linkedin.svg" />
+                        </a>
+                        <a target="_blank" href="https://twitter.com/salehriazq">
+                            <img src="img/twitter.svg" />
+                        </a>
                     </div>
                 </div>
+            </div>
+            <!--left column-->
+
+            <div class="right-column">
+
+                <iframe src="weeks/week1/week1.html" width="100%">
+
+                </iframe>
+
             </div>
         </div>
     </div>
 
 </body>
+<script src="js/script.js"></script>
 <script>
 
 
