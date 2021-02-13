@@ -97,6 +97,15 @@ body {
     text-decoration: underline;
 }
 
+.content-quote {
+    font-size: 24px;
+    color: #E7EBF1;
+    line-height: 32px;
+    padding: 48px 0px 48px 48px;
+    font-family: Garamond, serif;
+
+}
+
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -104,6 +113,7 @@ body {
     overflow: hidden;
     max-width: 100%;
     background-color: #F7F7F7;
+    margin: 40px 0;
 }
 
 .embed-container iframe,
